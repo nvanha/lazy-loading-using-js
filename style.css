@@ -1,0 +1,60 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.vh-30 {
+  height: 30vh;
+}
+
+.vh-60 {
+  height: 60vh;
+}
+
+.bg-info {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.bg-success {
+  background-color: rgba(0, 128, 0, 0.3);
+}
+
+.bg-primary {
+  background-color: rgba(165, 42, 42, 0.3);
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+:root {
+  --spacing: 2px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.col {
+  width: calc(100%/4 - 10px);
+}
+
+img {
+  width: 100% !important;
+  object-fit: cover;
+  display: block;
+
+  height: 300px;
+  background-color: azure;
+  opacity: 0;
+  visibility: hidden;
+}
+
+img.visible {
+  transition: all .8s ease;
+  opacity: 1;
+  visibility: visible;
+}
