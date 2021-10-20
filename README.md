@@ -1,4 +1,4 @@
-# Lazy Loading (demo)
+# Lazy Loading using JavaScript (no Library)
 
 ## Các kỹ thuật tối ưu hiệu xuất dành cho hình ảnh (_`FrontEnd`_ + _`BackEnd`_ + _`Design`_)
 
